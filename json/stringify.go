@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ability-sh/abi-lib/dynamic"
+	"github.com/matt-abi/abi-lib/dynamic"
 )
 
 func stringifyObject(v reflect.Value, w *bytes.Buffer, idx int) (int, error) {

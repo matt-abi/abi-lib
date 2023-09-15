@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ability-sh/abi-lib/dynamic"
+	"github.com/matt-abi/abi-lib/dynamic"
 )
 
 func encodeObject(v reflect.Value, w *bytes.Buffer, idx int) (int, error) {

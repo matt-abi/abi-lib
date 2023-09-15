@@ -1,3 +1,8 @@
-module github.com/ability-sh/abi-lib
+module github.com/matt-abi/abi-lib
 
 go 1.18
+
+require (
+	golang.org/x/net v0.15.0
+	golang.org/x/text v0.13.0
+)

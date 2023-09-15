@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/ability-sh/abi-lib/dynamic"
+	"github.com/matt-abi/abi-lib/dynamic"
 )
 
 func Unmarshal(data []byte, object interface{}) error {
